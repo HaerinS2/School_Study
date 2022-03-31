@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>웹 문서 만들기</title>
+  </head>
+  <body>
+    <map name="mapname">
+      <!-- 이미지 맵 정의 -->
+      <img src="./images/dog.jpg" width="300" height="200" usemap="#mapname" />
+      <area
+        shape="rect"
+        coords="10, 60, 100, 140"
+        href="https://www.naver.com/"
+        title="네이버"
+        type="_blank"
+      />
+      <!-- 영역을 나눠주는 <area> 태그 -->
+      <area
+        shape="rect"
+        coords="110, 60, 190, 140"
+        href="https://www.google.com/"
+        title="구글"
+        type="_blank"
+      />
+    </map>
+  </body>
+</html>
