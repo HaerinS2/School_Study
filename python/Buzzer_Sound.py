@@ -14,4 +14,4 @@ time.sleep(2.0)
 pwm.ChangeDutyCycle(0.0)
 
 pwm.stop()
-GPIO.Cleanup()
+GPIO.Cleanup() 
