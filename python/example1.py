@@ -1,0 +1,9 @@
+print(331/17)
+x=37
+print(x*x)
+y=10**10
+print(y)
+y=10e9
+print(y)
+a=123+456j
+print(a.conjugate())
