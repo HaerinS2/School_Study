@@ -1,0 +1,28 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(message){
+            var i=0;
+            var sum=0;
+            while(1){
+                i++;
+                sum+=i;
+                if(sum>20){
+                    message();
+                    break;
+                }
+            }
+        }
+        var message=function(){
+            alert("합이 20을 넘었습니다.");
+        }
+        check(message);
+    </script>
+</head>
+<body>
+</body>
+</html>
